@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    background:url("image/book.png"); 
+    background-position: center;
+    background-size:cover;
+    height:AUTO;
+}
+.ref{
+    width:1480px;
+    height: 150px;
+    border:3px solid rgba(255,255,255,0.2);
+    backdrop-filter:blur(50%);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color:black;
+    background-image: url(image/p_topics.png);
+    background-size:cover;
+}
+.ref h3{
+    text-align:center;
+    font-size:50px;
+    margin-top: 45px;
+}
+.ref  a i
+{
+    position:relative;
+    display:flex;
+    justify-content:left;
+    flex-wrap: wrap;
+    max-height: 50px;
+    font-size:3em;
+    color:wheat;
+    display:inline-;
+    transition:0.5s;
+    margin-bottom:50px;
+}
+.ref a i:hover{
+    color: orange;
+}
+
+
